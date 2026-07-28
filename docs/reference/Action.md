@@ -71,7 +71,7 @@ Action `AddIRCMessage` 的 Delay 不需要 DelayHost，而是借助它的目标 
 - *`RequireLogsOnSource`*?：`bool`，目标 Node 是否需要在攻击源节点上留下日志。默认值为 `false`。
 - *`RequireSourceIntact`*?：`bool`，攻击源 Node 系统文件 `netcfgx.dll` 是否需要完好无损。默认值为 `false`。
 
-> [!IMPORTANT]
+> [!WARNING]
 > 选填项的选填规则较为特殊。详情见：（WIP）HackerScript
 >
 > 当 HackerScript 作为立即执行的 StartingActions（ `Condition` 为 `Instantly`、不使用 Delay 或 Delay 时间为 `0`），会导致游戏内终端出现 `NullReferenceException`。
@@ -176,7 +176,7 @@ Note line 3</AddIRCMessage>
 - `TargetComp`：`string`，目标 Node 的 Computer ID。
 - `TargetFolderpath`：`string`，目标 Node 的文件夹路径。
 
-> [!IMPORTANT]
+> [!WARNING]
 > Hacknet 不会判断 `FileName` 或 `FileContents` 是否存在。`FileName` 或 `FileContents` 没填会导致 `NullReferenceException`。
 
 参考：[SAAddAsset.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/SAAddAsset.cs)
@@ -192,7 +192,7 @@ Note line 3</AddIRCMessage>
 - `TargetFilename`：`string`，目标文件的文件名。
 - 内容：追加到文件的内容。
 
-> [!IMPORTANT]
+> [!WARNING]
 > Hacknet 没有判断 `TargetComp`, `TargetFolderpath`, `TargetFilename` 是否存在。如果这些 attributes 不存在，会导致 `NullReferenceException`。
 
 参考：[SAAppendToFile.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/SAAppendToFile.cs)
@@ -207,7 +207,7 @@ Note line 3</AddIRCMessage>
 - `FilePath`：`string`，文件路径。
 - `FileName`：`string`，文件名。
 
-> [!IMPORTANT]
+> [!WARNING]
 > `FilePath` 不填会导致 `NullReferenceException`。
 
 参考：[SADeleteFile.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/SADeleteFile.cs)
@@ -269,7 +269,7 @@ Note line 3</AddIRCMessage>
 | `"irchub"` | `DHSDaemon` |
 | `"board"` | `messageBoard` |
 
-> [!IMPORTANT]
+> [!WARNING]
 > Hacknet 没有判断 `Target` 是否存在。如果 `Target` 不存在，会导致 `NullReferenceException`。
 > 
 > Hacknet 也没有判断 Type 类型是否与关联的 Node 类型相同。如果 Type 类型与关联的 Node 类型不同，可能会导致游戏内 AlertIcon 无法正常使用。
@@ -359,7 +359,7 @@ Get out of there!</StartScreenBleedEffect>
 - *`TotalDurationSeconds`*?：`float`，总持续时间（秒）。默认值为 `200`。
 - 内容：左下角的提示内容。最多三行。
 
-> [!IMPORTANT]
+> [!WARNING]
 > 没填 `AlertTitle` 会导致游戏黑屏。
 
 参考：[SAScreenBleedEffect.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/SAScreenBleedEffect.cs)
