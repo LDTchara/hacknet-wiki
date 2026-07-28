@@ -36,7 +36,7 @@ Hacknet.wiki 旨在搭建以内容为主，社区驱动的 Hacknet 文档中心�
 全站内容已在 GitHub 上开源（[github.com/UnHacknet/hacknet-wiki](https://github.com/UnHacknet/hacknet-wiki)），你可直接克隆仓库获取完整副本，离线浏览所有页面。  
 此外，网站还支持 [llms.txt](https://llmstxt.org/)，方便大语言模型或自动化工具高效索引与调用。
 
-<img src="/xkcd927adapted.jpg" alt="xkcd-927-adapted" width="600" loading="lazy">
+<img src="./assets/xkcd927adapted.jpg" alt="xkcd-927-adapted" width="600" loading="lazy">
 
 *Adapted from xkcd [#927](https://xkcd.com/927/) by Randall Munroe*
 
