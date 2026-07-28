@@ -139,7 +139,7 @@ Action `AddIRCMessage` 的 Delay 不需要 DelayHost，而是借助它的目标 
 > 内容不能为空。
 
 > [!IMPORTANT]
-> 根据源码，游戏原本意图让负数的 `Delay` 显示过去的时间，但代码存在错误，实际显示的时间为 `当前时间 + |Delay|`（Delay 是负数，减去一个负数相当于加上它的绝对值）。参考 [SAAddIRCMessage.cs#L34-L47](https://github.com/UnHacknet/OpenHacknet/blob/main/SAAddIRCMessage.cs#L34-L47)
+> 根据源码，游戏原本意图让负数的 `Delay` 显示过去的时间，但代码存在错误，实际显示的时间为 “当前时间 + |Delay|”（Delay 是负数，减去一个负数相当于加上它的绝对值）。参考 [SAAddIRCMessage.cs#L34-L47](https://github.com/UnHacknet/OpenHacknet/blob/main/SAAddIRCMessage.cs#L34-L47)
 
 消息内容支持添加附件。
 
