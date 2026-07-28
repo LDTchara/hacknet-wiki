@@ -13,6 +13,9 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   cleanUrls: true,
+  sitemap: {
+    hostname: "https://hacknet.wiki",
+  },
   themeConfig: {
     outline: "deep",
     footer: {
