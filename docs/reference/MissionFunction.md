@@ -155,7 +155,7 @@ ID 与 歌曲文件名 关系如下。歌曲的文件路径在 `Hacknet/Content/
 | `9` | `Userspacelike` |
 | `10` | `CrashTrack` |
 
-## 非公开 Fucntion
+## 非公开 Function
 
 Hacknet 也有很多 主线/DLC 专用 Function，他们很多是给Hacknet主线/DLC使用的专用功能，使用他们也可能会有条件。
 
