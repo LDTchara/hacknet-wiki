@@ -132,11 +132,14 @@ Action `AddIRCMessage` 的 Delay 不需要 DelayHost，而是借助它的目标 
 - `TargetComp`：`string`，IRC 服务器的 Computer ID。
 - *`Delay`*?：`float`，延迟执行的时间。默认值为 `0.0`。
   - AddIRCMessage 不需要通过 `DelayHost` 延迟执行。
-  - 小于 `0` 时将会给过去的时间添加 IRC 消息。
+  - 如果 `Delay` 为负数，消息会立即发送，时间会是 Delay 绝对值之后的时间。
 - 内容：消息的内容。
 
+> [!WARNING]
+> 内容不能为空。
+
 > [!IMPORTANT]
-> 内容 不能为空
+> 根据源码，游戏原本意图让负数的 `Delay` 显示过去的时间，但代码存在错误，实际显示的时间为 `当前时间 + |Delay|`（Delay 是负数，减去一个负数相当于加上它的绝对值）。参考 [SAAddIRCMessage.cs#L34-L53](https://github.com/UnHacknet/OpenHacknet/blob/main/SAAddIRCMessage.cs#L34-L53)
 
 消息内容支持添加附件。
 
