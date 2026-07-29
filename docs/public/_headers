@@ -1,0 +1,8 @@
+# Agent discovery: Link response headers per RFC 8288 / RFC 9727 §3
+# Advertises machine-readable resources to AI agents on every response.
+# https://www.rfc-editor.org/rfc/rfc8288
+# https://www.rfc-editor.org/rfc/rfc9727#section-3
+/*
+  Link: </llms.txt>; rel="service-doc"; type="text/plain"
+  Link: </llms-full.txt>; rel="describedby"; type="text/plain"
+  Link: </sitemap.xml>; rel="describedby"; type="application/xml"
