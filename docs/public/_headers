@@ -6,3 +6,6 @@
   Link: </llms.txt>; rel="service-doc"; type="text/plain"
   Link: </llms-full.txt>; rel="describedby"; type="text/plain"
   Link: </sitemap.xml>; rel="describedby"; type="application/xml"
+
+/*.txt
+  Content-Type: text/plain; charset=utf-8
