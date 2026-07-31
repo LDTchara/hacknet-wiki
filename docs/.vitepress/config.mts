@@ -6,7 +6,23 @@ import { copyOrDownloadAsMarkdownButtons } from "vitepress-plugin-llms";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
-    plugins: [llmstxt()],
+    plugins: [
+      llmstxt({
+        excludeIndexPage: false,
+        customLLMsTxtTemplate: `# {title}
+
+> {description}
+
+{details}
+
+## Table of Contents
+
+- [menu & about](/index.md)
+
+{toc}
+`,
+      }),
+    ],
   },
   title: "Hacknet.wiki",
   description: "Hacknet (Extension) 文档中心",
