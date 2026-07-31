@@ -11,7 +11,7 @@ export default defineConfig({
         excludeIndexPage: false,
         customLLMsTxtTemplate: `# {title}
 
-> {description}
+{description}
 
 {details}
 
