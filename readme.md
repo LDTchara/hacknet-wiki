@@ -7,7 +7,7 @@
 旨在搭建以内容为主，社区驱动的 Hacknet 文档中心。
 
 > [!WARNING]
-> 目前处于开发早期阶段，正在积极完善内容。如果你需要教程，请暂时移步 https://github.com/FBIKdot/Hacknet-Extension-Tutorial
+> 本教程目前处于早期开发阶段，可能存在错误、内容缺失或表述不当之处。如需查阅相对完整的教程，请暂时访问 [Hacknet-Extension-Tutorial](https://github.com/FBIKdot/Hacknet-Extension-Tutorial) 或 [Old.Hacknet.wiki](https://old.hacknet.wiki)。
 
 ## Contributing // 贡献指南
 
