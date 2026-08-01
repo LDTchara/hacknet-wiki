@@ -44,8 +44,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      { text: "Extension 教程", link: "/extension-tutorial" },
-      { text: "参考文档", link: "/reference" },
+      { text: "Extension 教程", link: "/extension-tutorial/" },
+      { text: "参考文档", link: "/reference/" },
       { text: "常见问题", link: "/hnfaq" },
       {
         text: "Awesome",
@@ -73,7 +73,7 @@ export default defineConfig({
 
     sidebar: {
       "/hnfaq": [],
-      "/extension-tutorial": [
+      "/extension-tutorial/": [
         {
           text: "Extension 教程",
           items: [
@@ -121,7 +121,7 @@ export default defineConfig({
           link: "/extension-tutorial/Flag",
         },
       ],
-      "/reference": [
+      "/reference/": [
         {
           text: "参考文档",
           items: [{ text: "Hacknet 参考", link: "/reference/" }],
