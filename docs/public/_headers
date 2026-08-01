@@ -6,17 +6,13 @@
   Link: </llms.txt>; rel="service-doc"; type="text/plain"
   Link: </llms-full.txt>; rel="describedby"; type="text/plain"
   Link: </sitemap.xml>; rel="describedby"; type="application/xml"
+  Vary: Accept
 
 /*.txt
   Content-Type: text/plain; charset=utf-8
 
-/*.html
-  Vary: Accept
-
 /*.md
   Content-Type: text/markdown; charset=utf-8
-  Vary: Accept
-
 
 /assets/*
   cache-control: max-age=31536000
