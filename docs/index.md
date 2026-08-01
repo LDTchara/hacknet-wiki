@@ -6,6 +6,14 @@ hero:
   tagline: "Hacknet 文档中心"
 ---
 
+<llm-only>
+
+# Hacknet.wiki
+
+Hacknet 文档中心
+
+</llm-only>
+
 ## 目录
 
 ### [渐进式 Extension 教程(Beta)](./extension-tutorial/index.md)
