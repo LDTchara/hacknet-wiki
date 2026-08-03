@@ -31,6 +31,8 @@ import RainbowText from './components/RainbowText.vue'
 
 ### Extension 和 Mod 的区别 {#difference-between-ext-and-mod}
 
+Extension 和 Mod 的关系很像《我的世界》中地图与模组的关系。
+
 Hacknet 是一款**数据驱动**的游戏。游戏程序本身只是一个执行引擎，核心机制通过代码实现，而任务、剧情等内容则通过**数据**来定义。Extension（扩展）是玩家依据执行引擎的规则自制的"数据"，Steam Workshop 上分享的内容本质上也是"数据"。
 
 Mod 是 Modification（修改）的缩写，中文译为**模组**。Hacknet 社区中最常用的模组框架是 [Hacknet-Pathfinder](https://github.com/Arkhist/Hacknet-Pathfinder)，它为开发者提供了通过编写代码来修改或增强游戏程序的工具，主要针对**执行引擎**进行改动。
