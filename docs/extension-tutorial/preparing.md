@@ -9,9 +9,14 @@ outline: deep
 - 一个文本编辑器。
 
 > [!NOTE]
-> 推荐使用 [Visual Studio Code/VSCode](https://code.visualstudio.com/) 来进行 Hacknet Extension 开发。它不仅能提供 XML 的高亮与语法检查，配合 [AutumnRivers/hacknet-vscode](https://github.com/AutumnRivers/hacknet-vscode) 和 [fengxu-30338/HacknetExtensionEditor](https://github.com/fengxu-30338/HacknetExtensionEditor) 插件还可以提高扩展开发效率。这两个插件需要对 Hacknet Extension 有一定了解，会在后续章节介绍，暂时不需要安装。
+> 推荐使用 [Visual Studio Code/VSCode](https://code.visualstudio.com/) 或任何基于 VSCode(Code OSS) 的 IDE 来进行 Hacknet Extension 开发。
+> 
+> VSCode 能提供 XML 的高亮、语法检查与格式化等功能，方便修改 XML 文件，借助于插件。
 > 
 > 你需要在 VSCode 中安装 [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) 插件来获得 XML 语法检查等功能。
+> 
+> 在后续通过 [AutumnRivers/hacknet-vscode](https://github.com/AutumnRivers/hacknet-vscode) 和 [fengxu-30338/HacknetExtensionEditor](https://github.com/fengxu-30338/HacknetExtensionEditor) 插件可以进一步提高 VSCode 的扩展开发效率。这两个插件需要对 Hacknet Extension 有一定了解，会在后续章节介绍，暂时不需要安装。
+
 
 ## 创建项目
 
@@ -31,7 +36,7 @@ cd MyFirstExtension
 rename EDIT_ME_ExtensionInfo.xml ExtensionInfo.xml
 ```
 
-使用 VSCode 打开 `Hacknet/Extensions/MyFirstExtension/` 目录，编辑 `ExtensionInfo.xml`：修改 `Name` 元素的内容（以下以 `MyFirstExtension` 为例），然后添加一个 `Language` 元素，内容为 `zh-cn`。
+打开 `Hacknet/Extensions/MyFirstExtension/` 目录，编辑 `ExtensionInfo.xml`：修改 `Name` 元素的内容（以下以 `MyFirstExtension` 为例），然后添加一个 `Language` 元素，内容为 `zh-cn`。
 
 ```xml
 <ExtensionInfo>
