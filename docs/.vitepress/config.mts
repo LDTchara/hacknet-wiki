@@ -46,6 +46,7 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "Extension 教程", link: "/extension-tutorial/" },
       { text: "参考文档", link: "/reference/" },
+      { text: "百科", link: "/hnpedia/" },
       { text: "常见问题", link: "/hnfaq" },
       {
         text: "Awesome",
@@ -73,6 +74,23 @@ export default defineConfig({
 
     sidebar: {
       "/hnfaq": [],
+      "/hnpedia/": [
+        {
+          text: "Hacknet 百科",
+          items: [
+            { text: "百科首页", link: "/hnpedia/" },
+            { text: "基础操作", link: "/hnpedia/Commands" },
+            { text: "核心机制", link: "/hnpedia/Mechanics" },
+            { text: "全流程攻略", link: "/hnpedia/Walkthrough" },
+            { text: "人物与剧情档案", link: "/hnpedia/Characters" },
+            { text: "服务器速查表", link: "/hnpedia/Servers" },
+            { text: "主线剧情", link: "/hnpedia/Story" },
+            { text: "成就列表", link: "/hnpedia/Achievements" },
+            { text: "游戏彩蛋", link: "/hnpedia/EasterEggs" },
+            { text: "音乐与音效", link: "/hnpedia/Music" },
+          ],
+        },
+      ],
       "/extension-tutorial/": [
         {
           text: "Extension 教程",
