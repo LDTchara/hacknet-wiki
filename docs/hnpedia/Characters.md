@@ -16,8 +16,8 @@
 | **/el** | 消息板运营者 | lelzSec 板块的幕后运营者 |
 | **Polar Star / 北极星** | 组织 | 一组"试炼"性质的服务器 |
 | **X-C Proj. : Bradford** | 项目联络人 | Entropy 线的项目联系人 |
-| **Tom Wilkins** | — | 剧情邮件高频发件人之一 |
-| **Matt Trobbiani** | — | 剧情邮件高频发件人之一 |
+| **Tom Wilkins** | — | Hacknet-os.com域名所有者 |
+| **Matt Trobbiani** | — | 游戏创作者 |
 
 ### DLC（Labyrinths）角色
 
