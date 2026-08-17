@@ -50,7 +50,7 @@
 
 - 基础压测时间：**30 秒**
 - **Shell** 命令创建一个远程 Shell 来压测代理
-- Shell 消耗 RAM（约 10M）来维持运行
+- Shell 消耗 RAM（约 40M）来维持运行
 - 压测完成后才能运行 PortHack
 - Shell 会在目标服务器上留下连接日志：`[IP]_Opened_#SHELL`
 
@@ -89,5 +89,5 @@
 ## RAM 管理
 
 - 每个运行的程序占用 RAM
-- Shell 约 20 单位
+- Shell 约 40 单位
 - 总 RAM 有限，耗尽后无法启动新程序
