@@ -22,6 +22,9 @@ Bit、CSEC、Entropy 等人物与组织档案，附剧情时间线。
 ### [📜 主线剧情](./Story.md)
 从 Bit 的第一封邮件到最终结局的完整故事线。
 
+### [🏛 组织历史](./Organizations.md)
+Entropy、CSEC、lelzSec、EnTech、Bibliotheque 各组织的历史与关系。
+
 ### [🏆 成就列表](./Achievements.md)
 全部成就的获取条件与解锁方式。
 
