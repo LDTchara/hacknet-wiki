@@ -22,6 +22,9 @@ Bit、CSEC、Entropy 等人物与组织档案，附剧情时间线。
 ### [📜 主线剧情](./Story.md)
 从 Bit 的第一封邮件到最终结局的完整故事线。
 
+### [🌀 Labyrinths DLC](./Labyrinths.md)
+独立剧情线：Kaguya 试炼、Bibliotheque 团队、航空公司线与坠机结局。
+
 ### [🏛 组织历史](./Organizations.md)
 Entropy、CSEC、lelzSec、EnTech、Bibliotheque 各组织的历史与关系。
 
@@ -33,3 +36,12 @@ Entropy、CSEC、lelzSec、EnTech、Bibliotheque 各组织的历史与关系。
 
 ### [🎵 音乐与音效](./Music.md)
 Hacknet 的原声音乐与音效收藏。
+
+### [🧰 程序与工具大全](./Programs.md)
+全部可执行程序的图鉴：RAM 消耗、功能与获取途径。
+
+### [🎨 OS 主题系统](./Themes.md)
+内置与 DLC 的全部主题、切换方式与主题文件机制。
+
+### [🖥 服务器服务（Daemon）](./Daemons.md)
+服务器上的各类后台服务程序详解。
