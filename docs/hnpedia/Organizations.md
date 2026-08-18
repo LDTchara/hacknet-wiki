@@ -87,9 +87,8 @@ CSEC 服务器管理员账号名单：
 > ——Naix
 
 - **成员**：Naix 主导，另有匿名成员共同决策
-- **机制**：IP 白名单准入，核心服务器 `lelzSecHub`
+- **机制**：IP 白名单准入，核心服务器 **/el 论坛**（游戏内显示名；数据内部 id 为 `lelzSecHub`，原版中不可见），既是组织基地也是信息板
 - **试炼**：北极星试炼（**Polar Snake**）——从 Shrine 到 Patience / Haste / Diligence / Focus 再到 Head，考验玩家的耐心与专注
-- **社交**：`/el` 论坛作为组织信息板
 
 > 🕶 **地位**：与 Entropy、CSEC 相比，lelzSec 更小、更隐蔽，成员以能力与互信维系，是主线支线中最"纯粹"的地下组织。
 
