@@ -26,7 +26,7 @@
 | Daemon | 功能 | 出现位置 |
 |---|---|---|
 | **AuthenticatingDaemon** | 认证服务：登录界面流程（基类） | 需登录的服务器 |
-| **WhitelistConnectionDaemon** | 白名单认证：校验来源 IP 白名单 | 太平洋航空预售服务器等 |
+| **WhitelistConnectionDaemon**（XML 标记 `WhitelistAuthenticatorDaemon`） | 白名单认证：校验来源 IP 白名单 | 太平洋航空预售服务器等 |
 | **ISPDaemon** | ISP 管理：用户管理界面 | ISP Management Server |
 | **UploadServerDaemon** | 上传服务器：Drop 文件夹（可选认证） | CSEC / Bibliotheque 的 Drop 服务器 |
 
