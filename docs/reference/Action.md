@@ -1,6 +1,3 @@
----
-outline: deep
----
 # Action（行为）
 
 Action 可以 实时改变游戏中的部分内容。

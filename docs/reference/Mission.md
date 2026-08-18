@@ -1,6 +1,3 @@
----
-outline: deep
----
 # Mission （任务）
 
 教程见 [教程：Mission](../extension-tutorial/Mission.md)

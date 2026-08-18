@@ -1,11 +1,10 @@
----
-outline: deep
----
 # ConditionalActions（条件行为）
 
 ConditionalActions 是使用 Action 的一种方法。
 
 ConditionalActions 会使用 Condition 给 Action 设置条件。ConditionalActions 被游戏加载后，Condition 会在满足后执行它的 Action。
+
+ConditionalActions 可以在游戏开始，Mission 中或者 Action 中加载，非常方便。
 
 描述 ConditionalActions 的 XML 结构如下：
 

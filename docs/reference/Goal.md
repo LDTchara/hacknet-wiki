@@ -1,6 +1,3 @@
----
-outline: deep
----
 # Goal （目标）
 
 教程见 [教程：Goal](../extension-tutorial/Goal.md)

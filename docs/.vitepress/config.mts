@@ -141,6 +141,18 @@ export default defineConfig({
           text: "Flag",
           link: "/extension-tutorial/Flag",
         },
+        {
+          text: "Action",
+          link: "/extension-tutorial/Action",
+        },
+        {
+          text: "ExtensionInfo",
+          link: "/extension-tutorial/ExtensionInfo",
+        },
+        {
+          text: "Logo",
+          link: "/extension-tutorial/Logo",
+        },
       ],
       "/reference/": [
         {
@@ -150,6 +162,14 @@ export default defineConfig({
         {
           text: "Extension",
           items: [
+            {
+              text: "ExtensionInfo",
+              link: "/reference/ExtensionInfo",
+            },
+            {
+              text: "Logo",
+              link: "/reference/Logo",
+            },
             {
               text: "Action & Faction",
               items: [
@@ -197,12 +217,9 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/UnHacknet/hacknet-wiki" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/UnHacknet/hacknet-wiki" }],
     editLink: {
-      pattern:
-        "https://github.com/UnHacknet/hacknet-wiki/blob/master/docs/:path",
+      pattern: "https://github.com/UnHacknet/hacknet-wiki/blob/master/docs/:path",
       text: "在 GitHub 上查看或编辑此页",
     },
   },
@@ -218,7 +235,7 @@ export default defineConfig({
       }),
     ],
     image: {
-      lazyLoading: true,
+      lazyLoad: true,
     },
     config(md) {
       md.use(copyOrDownloadAsMarkdownButtons);
