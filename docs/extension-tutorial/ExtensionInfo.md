@@ -57,7 +57,7 @@ Edit this with your own extension info and start building!</Description>
 打开 `MyFirstExtension/ExtensionInfo.xml`，把 `Description` 改成自己的描述，再把 `HasIntroStartup` 改为 `true`：
 
 ```xml
-<Description> --- Blank Extension ---
+<Description> --- Blank Extension --- <!-- [!code del] -->
 Edit this with your own extension info and start building!</Description> <!-- [!code del] -->
 <Description>我的第一个 Hacknet 扩展！</Description> <!-- [!code add] -->
 
