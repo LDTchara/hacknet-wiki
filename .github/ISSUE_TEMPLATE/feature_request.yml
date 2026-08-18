@@ -1,0 +1,52 @@
+name: Feature Request // 功能请求
+description: Suggest a new feature or improvement / 建议新功能或改进
+title: "[FR] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a feature! Please note that unnecessary feature updates are discouraged, see [contributing.md](../../contributing.md).
+        感谢你花时间提出功能建议！请注意本项目不进行非必要的功能更新，详见 [contributing.md](../../contributing.md)。
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description / 功能描述
+      description: What feature or improvement would you like to see? / 你希望添加什么功能或改进？
+      placeholder: A clear and concise description of the feature / 清晰简洁地描述该功能
+    validations:
+      required: false
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation / 动机
+      description: Why is this feature needed? What problem does it solve? / 为什么需要该功能？它解决了什么问题？
+      placeholder: Explain the use case / 说明使用场景
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution / 建议方案
+      description: How do you think it should work? / 你认为应该如何实现？
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / 替代方案
+      description: Any alternative solutions or workarounds you have considered (optional) / 你考虑过的其他替代方案或临时解决办法（可选）
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context / 补充说明
+      description: "References, screenshots or any other context (optional) / 参考资料、截图或其他说明（可选）"
+    validations:
+      required: false
