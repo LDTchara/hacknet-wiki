@@ -1,0 +1,45 @@
+name: Bug Report // 错误报告
+description: Report an error in the documentation / 报告文档中的错误
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an error!
+        感谢你花时间报告文档中的错误！
+
+  - type: input
+    id: doc-path
+    attributes:
+      label: Document Path / 文档路径
+      description: Path or page URL of the document with the error / 出错文档的文件路径或页面链接
+      placeholder: e.g. docs/guide/xxx.md or https://hacknet.wiki/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: problematic-text
+    attributes:
+      label: Problematic Text / 问题文本
+      description: Quote the problematic text from the document / 引用文档中有问题的原文
+      placeholder: Paste the original text here / 在此粘贴有问题的原文
+    validations:
+      required: false
+
+  - type: textarea
+    id: correct-text
+    attributes:
+      label: Correct Text / 正确文本
+      description: What you believe is the correct text / 你认为正确的写法
+      placeholder: Paste the corrected text here / 在此粘贴修改后的文本
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context / 补充说明
+      description: "References, screenshots or any other context (optional) / 参考资料、截图或其他说明（可选）"
+    validations:
+      required: false
