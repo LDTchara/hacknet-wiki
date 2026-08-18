@@ -1,16 +1,17 @@
 {
   "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "format": "oxfmt --write .",
+    "fmt": "pnpm run format"
+  },
   "devDependencies": {
     "@catppuccin/vitepress": "^0.1.2",
     "@shikijs/transformers": "^4.4.3",
     "oxfmt": "^0.63.0",
     "vitepress": "2.0.0-alpha.19",
     "vitepress-plugin-llms": "^1.13.5"
-  },
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "format": "prettier --write ."
   }
 }
