@@ -22,6 +22,9 @@ Bit、CSEC、Entropy 等人物与组织档案，附剧情时间线。
 ### [📜 主线剧情](./Story.md)
 从 Bit 的第一封邮件到最终结局的完整故事线。
 
+### [🌀 Labyrinths DLC](./Labyrinths.md)
+独立剧情线：Kaguya 试炼、Bibliotheque 团队、航空公司线与坠机结局。
+
 ### [🏛 组织历史](./Organizations.md)
 Entropy、CSEC、lelzSec、EnTech、Bibliotheque 各组织的历史与关系。
 
