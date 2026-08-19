@@ -95,6 +95,7 @@ export default defineConfig({
             { text: "游戏内可读文档", link: "/hnpedia/Files" },
             { text: "黑客技能与派系进流程", link: "/hnpedia/Progress" },
             { text: "网络地图结构", link: "/hnpedia/NetworkMap" },
+            { text: "游戏内网站", link: "/hnpedia/Websites" },
           ],
         },
       ],

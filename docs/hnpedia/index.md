@@ -57,3 +57,6 @@ Hacknet 的原声音乐与音效收藏。
 
 ### [🗺 网络地图结构](./NetworkMap.md)
 节点类型、定位与排序算法，以及 Extension 节点的放置机制。
+
+### [🌐 游戏内网站](./Websites.md)
+DEC、EnTech、Expo、KFC、lelzSec、Neopals、Nortron 官网模板与网页服务机制。
