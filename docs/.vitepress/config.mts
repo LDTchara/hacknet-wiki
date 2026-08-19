@@ -163,6 +163,10 @@ export default defineConfig({
           link: "/extension-tutorial/ExtensionInfo",
         },
         {
+          text: "ESequencer",
+          link: "/extension-tutorial/ESequencer",
+        },
+        {
           text: "Logo",
           link: "/extension-tutorial/Logo",
         },
