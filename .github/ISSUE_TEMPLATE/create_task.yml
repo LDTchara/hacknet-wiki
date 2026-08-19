@@ -1,0 +1,39 @@
+name: Create Task // 创建任务
+description: Claim a piece of work and track it with a task list / 认领一部分工作并用任务清单跟踪进度
+title: "[Task] "
+labels: ["Task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you plan to work on a part of the documentation for a long time, create a Task issue so everyone knows your work.
+        如果你想要在长时间内撰写某一部分，创建一个 Task，方便交流和让大家知道你的工作。
+
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Task Description / 任务描述
+      description: What you are going to write or update / 你要编写或更新的内容（如某个章节、某篇教程或某个功能文档）
+      placeholder: e.g. Write the extension tutorial chapter / 例如：编写扩展教程章节
+    validations:
+      required: false
+
+  - type: textarea
+    id: task-list
+    attributes:
+      label: Task List / 任务清单
+      description: Break the task into checkable todos and tick them when done / 把任务拆分为可勾选的待办事项，完成后勾选
+      value: |
+        - [ ] TODO
+        - [ ] TODO
+        - [ ] TODO
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / 备注
+      description: "Estimated completion time, help needed, references, etc. (optional) / 预计完成时间、需要的帮助、参考资料等（可选）"
+    validations:
+      required: false

@@ -163,9 +163,9 @@
 
 启动音乐的延迟播放时间（秒）。默认值为 `0`。
 
-### Sequencer 相关
+### ESequencer 相关
 
-Sequencer（序列器）是 Hacknet 本体终局阶段使用的特殊机制。搭配游戏中的 ESequencer 使用。
+Sequencer 是 Hacknet 本体终局阶段使用的特殊机制，其变体 ESequencer 被专门用于扩展中。以下元素可以控制 ESequencer 的行为。
 
 #### `SequencerTargetID`
 
@@ -173,7 +173,7 @@ Sequencer（序列器）是 Hacknet 本体终局阶段使用的特殊机制。�
 <SequencerTargetID>advExamplePC</SequencerTargetID>
 ```
 
-序列器的目标 Node 的 Computer ID。
+ESequencer 的目标 Node 的 Computer ID。
 
 #### `SequencerSpinUpTime`
 
@@ -181,7 +181,7 @@ Sequencer（序列器）是 Hacknet 本体终局阶段使用的特殊机制。�
 <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
 ```
 
-序列器的启动时间（秒）。默认值为 `17`。
+ESequencer 的启动时间（秒）。默认值为 `17`。
 
 #### `SequencerFlagRequiredForStart`
 
@@ -189,7 +189,7 @@ Sequencer（序列器）是 Hacknet 本体终局阶段使用的特殊机制。�
 <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
 ```
 
-序列器启动所需的 Flag。
+ESequencer 启动所需的 Flag。
 
 #### `ActionsToRunOnSequencerStart`
 
@@ -197,7 +197,7 @@ Sequencer（序列器）是 Hacknet 本体终局阶段使用的特殊机制。�
 <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
 ```
 
-序列器启动时执行的 ConditionalActions 的文件路径。
+ESequencer 启动时执行的 ConditionalActions 的文件路径。
 
 ### Workshop 相关
 
