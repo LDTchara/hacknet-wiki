@@ -48,11 +48,12 @@ Get out of there!</StartScreenBleedEffect>
 - *`Delay`*?：延迟执行的时间（秒）。
 - 内容：左下角的提示内容。最多三行。
 
-需要注意的是，一般玩家是需要玩家在 ScreenBleed 覆盖前完成任务。
-
-所以也需要额外通过Action处理取消 ScreenBleed 的逻辑，比如说任务完成后加载的 ConditionalActions。
-
-这种情况下 **CompleteAction 不是指任务完成后加载的ConditionalActions，而是失败后加载的**。
+> [!NOTE]
+> 需要注意的是，一般玩家是需要玩家在 ScreenBleed 覆盖前完成任务。
+> 
+> 这种情况下 **CompleteAction 不是指任务完成后加载的ConditionalActions，而是失败后加载的**。
+>
+> 所以也需要额外通过Action处理取消 ScreenBleed 的逻辑，比如说任务完成后加载的 ConditionalActions。
 
 ```xml
 <CancelScreenBleedEffect DelayHost="delayNode" Delay="0"/>
