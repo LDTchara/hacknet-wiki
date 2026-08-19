@@ -50,16 +50,16 @@ Bit 的测试服务器把你引向 **Entropy**——一群崇尚混乱的黑客�
 
 ### 分支 A · 回复脏话
 
-在 Naix 的 **"gg wp"** 邮件上**回复任意脏话**（如 `fuck`），Naix 回以 "rude response"（成就 `rudeNaixResponse`）。你继续留在 Entropy，完成**剩余任务**。
+在 Naix 的 **"gg wp"** 邮件上**回复任意脏话**（游戏内回复任何粗话均可），Naix 回以 "rude response"（成就 `rudeNaixResponse`）。你继续留在 Entropy，完成**剩余任务**。
 
 ### 分支 B · 通过 log 反黑回去
 
 从自己的日志反追踪 Naix，黑进 **Naix Root Gateway**（`173.194.35.172`，密码 `roxxane`），删除 **`sys/x-server.sys`**。Naix 的整套系统崩溃，他**认输**，发来 **"gg wp"** 邮件：
 
-> "Ok, ok, I get it. Fair enough. Stop messing with my shit."
+> "Ok, ok, I get it. Fair enough. Stop messing with my sh*t."
 > "A bit sloppy leaving those logs on your box, but, seriously, it kinda looked like you had no idea what you're doing."
 
-认输之余，Naix 给了你一个"测试"——去把安全公司 **Nortron** 的网站改成满屏 "DICKS"。由此你进入 **lelzSec** 线：**/el 论坛**、**北极星试炼**（Polar Snake：Shrine → Patience/Haste/Diligence/Focus → Head）。
+认输之余，Naix 给了你一个"测试"——去把安全公司 **Nortron** 的网站改成满屏 "D****S"（不雅词）。由此你进入 **lelzSec** 线：**/el 论坛**、**北极星试炼**（Polar Snake：Shrine → Patience/Haste/Diligence/Focus → Head）。
 
 
 ## 第四阶段：CSEC（邀请、自动测试、肯德基）

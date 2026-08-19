@@ -5,7 +5,8 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "format": "oxfmt --write .",
-    "fmt": "pnpm run format"
+    "fmt": "pnpm run format",
+    "test": "pnpm build && oxfmt --check"
   },
   "devDependencies": {
     "@catppuccin/vitepress": "^0.1.2",
@@ -13,5 +14,13 @@
     "oxfmt": "^0.63.0",
     "vitepress": "2.0.0-alpha.19",
     "vitepress-plugin-llms": "^1.13.5"
-  }
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^v24.18.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@11.22.0"
 }

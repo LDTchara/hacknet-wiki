@@ -8,8 +8,8 @@ Hacknet 服务器上可 `cat` 读取的各种文档文件。这些文件藏在�
 |---|---|---|
 | `BitSpeech.txt` | **Bit 的遗言**："My name is Bit, and if you're hearing this, i'm already dead…" | 主线结局演出 |
 | `eosScannerMail.txt` | vtfx 发给 Entropy 的邮件，泄露**所有 eOS 设备管理员密码均为 `alpine`** | Entropy 线 eOS 开场任务（邮件） |
-| `DeathRow.txt` | 真实德州死刑犯数据库（226 条记录：姓名、TDCJ 编号、前科、犯罪摘要、临终遗言） | Death Row Records Database |
-| `DeathRowServerInfo.txt` | 死刑数据库简介页（含种族/性别统计） | Death Row Records Database |
+| `DeathRow.txt` | 德州死刑犯数据库（游戏内设定为真实数据，含姓名、编号、前科、犯罪摘要、临终遗言，详见下文"现实数据彩蛋"） | Death Row Records Database |
+| `DeathRowServerInfo.txt` | 死刑数据库简介页（含分类统计） | Death Row Records Database |
 | `DeathRowSpecials.txt` | 特殊条目：Alva Curry 与 Joseph Felman（任务目标） | Death Row Records Database |
 | `MedicalDatabaseInfo.txt` | 国际医疗记录库简介页 | Universal Medical |
 | `AdvancedTutorialData.txt` | 进阶教学脚本（教 connect/scan/PortHack 等全部基础命令） | 游戏内 Tutorial |
@@ -19,10 +19,12 @@ Hacknet 服务器上可 `cat` 读取的各种文档文件。这些文件藏在�
 
 ## 现实数据彩蛋
 
+> ⚠️ 以下内容涉及游戏内收录的**真实世界数据**，仅作游戏资料记录。本页不复述具体数据内容，相关记录涉及真实个人，请注意尊重逝者与当事人。
+
 | 文件 | 内容 |
 |---|---|
-| `DeathRow.txt` | **整份是真实世界数据**——德州被执行死刑人员名单及真实临终遗言（含 Kimberly McCarthy、Thomas Barefoot 等）。CSEC 任务会操作其中的记录：`03HubSet03` 删除 Joseph Felman、`09HubSet04` 把 John Boorman 遗言改为 "I'm ready, Warden" |
-| `DeathRowServerInfo.txt` | 配套统计页（White 81 / Black 110 / Hispanic 79 / Other 4，共 274） |
+| `DeathRow.txt` | 游戏收录了德州被执行死刑人员名单及临终遗言（真实世界数据）。CSEC 任务会操作其中的记录：`03HubSet03` 删除 Joseph Felman、`09HubSet04` 把 John Boorman 遗言改为 "I'm ready, Warden" |
+| `DeathRowServerInfo.txt` | 配套统计页（含按种族分类的统计，属敏感内容，此处不展开） |
 | `CreditsData.txt` | 真实制作组名单（Matt Trobbiani、音乐 The Otherworld Agency、发行 Fellow Traveller） |
 | `VehicleTypes.txt` | 约 410 条真实汽车型号清单（厂商#车型），用作随机车牌/车辆档案词库（eOS Device Scanner 数据源） |
 | `siteTest.txt` | **真实 Stack Overflow 网页快照**（"Open a web browser in C# XNA?"，ID 2195439）——开发者测试网页渲染器时的残留物 |

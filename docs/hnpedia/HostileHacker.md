@@ -2,6 +2,8 @@
 
 这是 Labyrinths DLC 中的特殊机制：当 DLC 剧情触发"恶意文件注入"时，游戏会**跳出到真实操作系统**，在磁盘上写入一个"木马 DLL"，并让你的系统进入"被锁死"状态。`HostileHackerBreakinSequence` 负责这一整套演出。
 
+> ⚠️ 本页仅描述**游戏内的演出机制**：所谓"木马 DLL"只是游戏在自身数据目录写入的剧情道具文件，不含任何真实恶意代码，也不会损害系统；"系统锁死"仅发生在游戏内，按游戏提示删除该文件即可恢复。
+
 ## 触发方式
 
 `HackerScriptExecuter` 执行攻击脚本中的 `systakeover` 指令时触发 `HostileHackerBreakinSequence.Execute()`：
