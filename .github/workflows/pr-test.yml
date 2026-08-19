@@ -7,8 +7,6 @@ on:
 jobs:
   approval:
     runs-on: ubuntu-latest
-    environment:
-      name: pr-approval
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/setup@v2
