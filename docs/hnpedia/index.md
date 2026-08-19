@@ -45,3 +45,33 @@ Hacknet 的原声音乐与音效收藏。
 
 ### [🖥 服务器服务（Daemon）](./Daemons.md)
 服务器上的各类后台服务程序详解。
+
+### [📇 人物数据库档案](./PeopleDB.md)
+游戏内数据库中可查询到的 NPC 人物档案。
+
+### [📄 游戏内可读文档](./Files.md)
+服务器上可 cat 的文档：剧情情报、现实数据彩蛋与开发者恶搞。
+
+### [📈 黑客技能与派系进流程](./Progress.md)
+派系声望机制、升级奖励与任务门槛。
+
+### [🗺 网络地图结构](./NetworkMap.md)
+节点类型、定位与排序算法，以及 Extension 节点的放置机制。
+
+### [🌐 游戏内网站](./Websites.md)
+DEC、EnTech、Expo、KFC、lelzSec、Neopals、Nortron 官网模板与网页服务机制。
+
+### [🌍 世界地点系统](./Locations.md)
+51 个城市的地点数据库：教育/生活/就业/负担能力指数与 NPC 出生地机制。
+
+### [🎮 游戏模式与设置](./Modes.md)
+Demo、教育安全版、Extension 模式与启动参数、Settings.txt 设置项。
+
+### [🌏 多语言与本地化](./Locales.md)
+10 种语言的词条机制、语言选择流程与 Extension 多语言支持。
+
+### [💥 敌对黑客入侵事件](./HostileHacker.md)
+Labyrinths DLC 的"跳出游戏"机制：注入木马 DLL、系统锁死、真实文件系统修复流程。
+
+### [🎲 随机生成系统](./Generation.md)
+公司名、NPC 用户名、学位、车辆、病历、Neopals 账户的程序化生成机制。
