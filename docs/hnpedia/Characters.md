@@ -67,12 +67,12 @@ Bit 是最神秘也最重要的角色。他从头到尾引导你完成一系列�
 
 被入侵后，你有两条路：
 
-1. **回脏话**：在 Naix 的 "gg wp" 邮件回复任意脏话（如 `fuck`），Naix 回以"rude response"（成就 `rudeNaixResponse`），你留在 Entropy 继续剩余任务；
+1. **回脏话**：在 Naix 的 "gg wp" 邮件回复任意脏话（游戏内回复任何粗话均可），Naix 回以"rude response"（成就 `rudeNaixResponse`），你留在 Entropy 继续剩余任务；
 2. **反黑**：顺着日志反追踪回去，黑进 Naix Root Gateway，删掉 `sys/x-server.sys`，逼 Naix **认输**——他发来 **"gg wp"** 邮件：
-   > "Ok, ok, I get it. Fair enough. Stop messing with my shit."
+   > "Ok, ok, I get it. Fair enough. Stop messing with my sh*t."
    > "A bit sloppy leaving those logs on your box, but, seriously, it kinda looked like you had no idea what you're doing."
 
-认输之余 Naix 还给你留了个"测试"——去把安全公司 **Nortron** 的网站改成满屏 "DICKS"，由此把你引向 lelzSec 与北极星。
+认输之余 Naix 还给你留了个"测试"——去把安全公司 **Nortron** 的网站改成满屏 "D****S"（不雅词），由此把你引向 lelzSec 与北极星。
 
 ### CSEC
 
@@ -122,7 +122,7 @@ Bit 是最神秘也最重要的角色。他从头到尾引导你完成一系列�
 ### Striker
 
 - **相关服务器**: `Striker_Battlestation` `72.60.4.119`（sec=3）、`Striker Proxy` `72.52.4.119`（sec=6）、`Striker Cache` `72.52.4.117`（sec=3）
-- **角色**: 玩家的攻击目标——你删掉了他的大学作业。他发来骂人邮件（"Fuck you. Love, StrikeR"），并反过来对你的 PC 发动 **VM 级攻击**报复。
+- **角色**: 玩家的攻击目标——你删掉了他的大学作业。他发来骂人邮件（"F**k you. Love, StrikeR"），并反过来对你的 PC 发动 **VM 级攻击**报复。
 
 ### Anon 🕵️
 

@@ -1,9 +1,9 @@
 
 # Hacknet 主线全流程攻略
 
-本攻略按 Hacknet 主线实际推进顺序整理，涉及的关键服务器、IP、密码均来自游戏真实数据。
+本攻略按 Hacknet 主线实际推进顺序整理，涉及的关键服务器、IP、密码均来自游戏数据，为**游戏内虚构设定**，请勿尝试连接文中出现的任何 IP 地址。
 
-> 提示：全程记得**清日志**——入侵后 `cd log` → `rm *`。你留下的日志不仅是破绽，甚至会在剧情里成为别人反攻你的把柄。
+> 提示：游戏中全程记得**清日志**——入侵后 `cd log` → `rm *`。你留下的日志不仅是破绽，甚至会在剧情里成为别人反攻你的把柄。
 
 ## 剧情线总览
 
@@ -87,7 +87,7 @@ V 系列（bit:初章 ~ bit:阻止）
 
 ### 分支 A · 回复脏话 → Entropy 剩余任务
 
-在 Naix 的 **"gg wp"** 邮件上**回复任意脏话**（比如 `fuck`），向 Naix 表明态度。
+在 Naix 的 **"gg wp"** 邮件上**回复任意脏话**（比如 f**k），向 Naix 表明态度。
 
 - 触发 Naix 的"rude response"剧情（对应成就 `rude_response`，源码 trigger 名为 `rudeNaixResponse`）
 - 你继续留在 Entropy 阵营，完成 **Entropy 的剩余任务**
@@ -100,9 +100,9 @@ V 系列（bit:初章 ~ bit:阻止）
 1. 黑进 **Naix Root Gateway** `173.194.35.172`（管理员密码 `roxxane`）
 2. 找到并**删除 `sys/x-server.sys`**——没有它，Naix 的整台系统直接崩掉
 3. Naix 认输，发来 **"gg wp"** 邮件：
-   > "Ok, ok, I get it. Fair enough. Stop messing with my shit."
+   > "Ok, ok, I get it. Fair enough. Stop messing with my sh*t."
    > "A bit sloppy leaving those logs on your box, but, seriously, it kinda looked like you had no idea what you're doing."
-   > 附赠一个"测试"：去把垃圾安全公司 **Nortron** 的网站改成满屏 "DICKS"。
+   > 附赠一个"测试"：去把垃圾安全公司 **Nortron** 的网站改成满屏 "D****S"（不雅词）。
 4. 由此进入 **lelzSec** 线：
    - **Nortron 系列**：Nortron Mail Server（sec=1）、Web Server（sec=2）、Internal Services（sec=2）、Mainframe（sec=5），全是防火墙
    - **/el 论坛**：`/el Message Board`（sec=6，全游戏最高安全等级之一）；要撬 `/el's Secure SecuLock Drive`（`69.172.201.208`，密码 `ithoughtyouweremakingtea`）和 **Stormrider**（`199.89.130.68`，同密码）
@@ -240,7 +240,7 @@ DLC 开头，你要通过 **Kaguya 的试炼**（`#ALERT# - The Kaguya Trials`�
 
 你接的任务目标之一是 **Striker**（`Striker_Battlestation` `72.60.4.119` sec=3、`Striker Proxy` `72.52.4.119` sec=6、`Striker Cache` `72.52.4.117` sec=3）。删掉他的大学作业后，他气炸了：
 
-> "It was you, wasn't it? You broke in and deleted my uni work. Well, ya know what? Fuck you. FUCK YOU. ... To conclude: Fuck you. Love, StrikeR"
+> "It was you, wasn't it? You broke in and deleted my uni work. Well, ya know what? F**k you. F*** YOU. ... To conclude: F**k you. Love, StrikeR"
 
 **但报复还没完**——Striker 从攻击转为反攻，你发现自己的 PC 也遭到了 **VM 级攻击**（"@#PLAYERNAME# is setting off warnings all over the place"）。Coel 紧急介入帮你调查，D3f4ult 负责追踪来源。这段剧情呼应主线里"清日志"的教训：你留下的日志又成了破绽。
 
