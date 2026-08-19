@@ -60,3 +60,12 @@ Hacknet 的原声音乐与音效收藏。
 
 ### [🌐 游戏内网站](./Websites.md)
 DEC、EnTech、Expo、KFC、lelzSec、Neopals、Nortron 官网模板与网页服务机制。
+
+### [🌍 世界地点系统](./Locations.md)
+51 个城市的地点数据库：教育/生活/就业/负担能力指数与 NPC 出生地机制。
+
+### [🎮 游戏模式与设置](./Modes.md)
+Demo、教育安全版、Extension 模式与启动参数、Settings.txt 设置项。
+
+### [🌏 多语言与本地化](./Locales.md)
+10 种语言的词条机制、语言选择流程与 Extension 多语言支持。
