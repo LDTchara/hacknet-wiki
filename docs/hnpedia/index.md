@@ -69,3 +69,9 @@ Demo、教育安全版、Extension 模式与启动参数、Settings.txt 设置�
 
 ### [🌏 多语言与本地化](./Locales.md)
 10 种语言的词条机制、语言选择流程与 Extension 多语言支持。
+
+### [💥 敌对黑客入侵事件](./HostileHacker.md)
+Labyrinths DLC 的"跳出游戏"机制：注入木马 DLL、系统锁死、真实文件系统修复流程。
+
+### [🎲 随机生成系统](./Generation.md)
+公司名、NPC 用户名、学位、车辆、病历、Neopals 账户的程序化生成机制。

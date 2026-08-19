@@ -99,6 +99,8 @@ export default defineConfig({
             { text: "世界地点系统", link: "/hnpedia/Locations" },
             { text: "游戏模式与设置", link: "/hnpedia/Modes" },
             { text: "多语言与本地化", link: "/hnpedia/Locales" },
+            { text: "敌对黑客入侵事件", link: "/hnpedia/HostileHacker" },
+            { text: "随机生成系统", link: "/hnpedia/Generation" },
           ],
         },
       ],
