@@ -75,3 +75,12 @@ Labyrinths DLC 的"跳出游戏"机制：注入木马 DLL、系统锁死、真�
 
 ### [🎲 随机生成系统](./Generation.md)
 公司名、NPC 用户名、学位、车辆、病历、Neopals 账户的程序化生成机制。
+
+### [💾 存档系统](./Saves.md)
+账户清单与存档文件结构、本地/Steam 云双写、存档编辑与备份。
+
+### [👥 账户与用户系统](./Accounts.md)
+玩家账户、服务器 UserDetail、Account/OnlineAccount/Neopals 账号分层解析。
+
+### [🛡 防御与追踪深度解析](./Defense.md)
+防火墙 analyze 原理、追踪计时与报警、管理员类型、Shell 过载/陷阱机制。
