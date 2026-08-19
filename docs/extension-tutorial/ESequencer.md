@@ -2,7 +2,7 @@
 
 Sequencer 是 Hacknet 本体终局阶段使用的特殊机制，其变体 ESequencer 被专门用于扩展中。
 
-让 ESequencer 模仿原版 Sequencer 的效果需要 ExtensionInfo 与 ConditionalActions 搭配一起使用。
+让 ESequencer 模仿原版 Sequencer 的效果需要 [ExtensionInfo](./ExtensionInfo.md) 与 [ConditionalActions](./Action.md#conditionalactions条件行为) 搭配一起使用。
 
 ## 修改 ExtensionInfo
 
@@ -62,5 +62,5 @@ Get out of there!</StartScreenBleedEffect>
 
 你可以在以下页面中找到更多细节：
 
-- [参考：ExtensionInfo#ESequencer 相关](../reference/ExtensionInfo.md#esequencer-相关)：`ESequencer 相关` 小节。
-- [参考：Action](../reference/Action.md)：`StartScreenBleedEffect` 一节。
+- [参考：ExtensionInfo#ESequencer 相关](../reference/ExtensionInfo.md#esequencer-相关)
+- [参考：Action](../reference/Action.md)：[StartScreenBleedEffect](../reference/Action.md#startscreenbleedeffect) [CancelScreenBleedEffect](../reference/Action.md#cancelscreenbleedeffect)
