@@ -2,6 +2,7 @@ name: Create Task // 创建任务
 description: Claim a piece of work and track it with a task list / 认领一部分工作并用任务清单跟踪进度
 title: "[Task] "
 labels: ["Task"]
+type: task
 body:
   - type: markdown
     attributes:
