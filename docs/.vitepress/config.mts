@@ -5,6 +5,7 @@ import { copyOrDownloadAsMarkdownButtons } from "vitepress-plugin-llms";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcExclude: ["hnpedia/**"],
   vite: {
     plugins: [
       llmstxt({
@@ -46,7 +47,7 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "Extension 教程", link: "/extension-tutorial/" },
       { text: "参考文档", link: "/reference/" },
-      { text: "百科", link: "/hnpedia/" },
+      // { text: "百科", link: "/hnpedia/" },
       { text: "常见问题", link: "/hnfaq" },
       {
         text: "Awesome",
@@ -74,39 +75,39 @@ export default defineConfig({
 
     sidebar: {
       "/hnfaq": [],
-      "/hnpedia/": [
-        {
-          text: "Hacknet 百科",
-          items: [
-            { text: "百科首页", link: "/hnpedia/" },
-            { text: "基础操作", link: "/hnpedia/Commands" },
-            { text: "核心机制", link: "/hnpedia/Mechanics" },
-            { text: "全流程攻略", link: "/hnpedia/Walkthrough" },
-            { text: "人物与剧情档案", link: "/hnpedia/Characters" },
-            { text: "服务器速查表", link: "/hnpedia/Servers" },
-            { text: "主线剧情", link: "/hnpedia/Story" },
-            { text: "成就列表", link: "/hnpedia/Achievements" },
-            { text: "游戏彩蛋", link: "/hnpedia/EasterEggs" },
-            { text: "音乐与音效", link: "/hnpedia/Music" },
-            { text: "程序与工具大全", link: "/hnpedia/Programs" },
-            { text: "OS 主题系统", link: "/hnpedia/Themes" },
-            { text: "服务器服务（Daemon）", link: "/hnpedia/Daemons" },
-            { text: "人物数据库档案", link: "/hnpedia/PeopleDB" },
-            { text: "游戏内可读文档", link: "/hnpedia/Files" },
-            { text: "黑客技能与派系进流程", link: "/hnpedia/Progress" },
-            { text: "网络地图结构", link: "/hnpedia/NetworkMap" },
-            { text: "游戏内网站", link: "/hnpedia/Websites" },
-            { text: "世界地点系统", link: "/hnpedia/Locations" },
-            { text: "游戏模式与设置", link: "/hnpedia/Modes" },
-            { text: "多语言与本地化", link: "/hnpedia/Locales" },
-            { text: "敌对黑客入侵事件", link: "/hnpedia/HostileHacker" },
-            { text: "随机生成系统", link: "/hnpedia/Generation" },
-            { text: "存档系统", link: "/hnpedia/Saves" },
-            { text: "账户与用户系统", link: "/hnpedia/Accounts" },
-            { text: "防御与追踪深度解析", link: "/hnpedia/Defense" },
-          ],
-        },
-      ],
+      // "/hnpedia/": [
+      //   {
+      //     text: "Hacknet 百科",
+      //     items: [
+      //       { text: "百科首页", link: "/hnpedia/" },
+      //       { text: "基础操作", link: "/hnpedia/Commands" },
+      //       { text: "核心机制", link: "/hnpedia/Mechanics" },
+      //       { text: "全流程攻略", link: "/hnpedia/Walkthrough" },
+      //       { text: "人物与剧情档案", link: "/hnpedia/Characters" },
+      //       { text: "服务器速查表", link: "/hnpedia/Servers" },
+      //       { text: "主线剧情", link: "/hnpedia/Story" },
+      //       { text: "成就列表", link: "/hnpedia/Achievements" },
+      //       { text: "游戏彩蛋", link: "/hnpedia/EasterEggs" },
+      //       { text: "音乐与音效", link: "/hnpedia/Music" },
+      //       { text: "程序与工具大全", link: "/hnpedia/Programs" },
+      //       { text: "OS 主题系统", link: "/hnpedia/Themes" },
+      //       { text: "服务器服务（Daemon）", link: "/hnpedia/Daemons" },
+      //       { text: "人物数据库档案", link: "/hnpedia/PeopleDB" },
+      //       { text: "游戏内可读文档", link: "/hnpedia/Files" },
+      //       { text: "黑客技能与派系进流程", link: "/hnpedia/Progress" },
+      //       { text: "网络地图结构", link: "/hnpedia/NetworkMap" },
+      //       { text: "游戏内网站", link: "/hnpedia/Websites" },
+      //       { text: "世界地点系统", link: "/hnpedia/Locations" },
+      //       { text: "游戏模式与设置", link: "/hnpedia/Modes" },
+      //       { text: "多语言与本地化", link: "/hnpedia/Locales" },
+      //       { text: "敌对黑客入侵事件", link: "/hnpedia/HostileHacker" },
+      //       { text: "随机生成系统", link: "/hnpedia/Generation" },
+      //       { text: "存档系统", link: "/hnpedia/Saves" },
+      //       { text: "账户与用户系统", link: "/hnpedia/Accounts" },
+      //       { text: "防御与追踪深度解析", link: "/hnpedia/Defense" },
+      //     ],
+      //   },
+      // ],
       "/extension-tutorial/": [
         {
           text: "Extension 教程",

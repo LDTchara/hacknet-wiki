@@ -24,9 +24,9 @@ Hacknet 文档中心
 
 详细解析 Hacknet 与 Hacknet Extension 的核心概念和功能并且提供格式参考。
 
-### [Hacknet 百科](./hnpedia/index.md)
+<!-- ### [Hacknet 百科](./hnpedia/index.md)
 
-Hacknet 游戏机制、命令、剧情、成就等全方位攻略信息。
+Hacknet 游戏机制、命令、剧情、成就等全方位攻略信息。 -->
 
 ### [常见问题](./hnfaq.md)
 
