@@ -64,6 +64,7 @@
 | 3724 | WoWHack.exe | 游戏服务 |
 | 554 | RTSPCrack.exe | RTSP |
 | 104 | KBT_PortTest.exe | 医疗设备 |
+| 192 | PacificPortcrusher.exe | 通用航空 |
 | 6881 | TorrentStreamInjector.exe | BitTorrent |
 
 
