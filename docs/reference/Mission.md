@@ -54,7 +54,7 @@ Mission 的根元素。
   - `true`：加载时仅记录、不执行，等到「激活时机」才执行，包括：
     - 通过 `nextMission` 进入的任务
     - 扩展启动时的起始任务
-    - 在 MissionHubServer / MissionListingServer / DLCHubServer 等节点**接取**任务时（接取动作会直接调用激活，**不发送任务邮件**）
+    - 在 MissionHubServer / MissionListingServer / DLCHubServer 等节点**接取**任务时 —— 激活由接取动作直接触发，**不以发送任务邮件为条件**（DHS 的接取不调用 `sendEmail`；另两者会调用，但是否真正发出取决于本任务的 `IsSilent`，见下文 `nextMission` 一节）
     - ⚠️ 通过 [`LoadMission`](Action.md) Action 加载的任务不在上述路径中，其 `missionStart` **不会执行**；有需要时应显式写 `suppress="false"`
   - `false`：任务文件**每次被解析时都会执行**。解析发生在任务的各种加载路径上，例如：
     - 存读档 / 新游戏时的任务加载
