@@ -93,7 +93,7 @@ Action `AddIRCMessage` 的 Delay 不需要 DelayHost，而是借助它的目标 
 > MissionHub 是拥有 `missionListingServer` 或 `missionHubServer` Daemon 的 Node，在游戏中作为“任务中心”。DHS 此处代指有 `DHSDaemon` Daemon 的 Node。
 
 > [!NOTE]
-> 通过此 Action 加入的任务，其 `missionStart` 在**加载时不会执行**（扩展模式下 `suppress` 默认为 `true`），而是在玩家**接取**该任务时执行。详见 [Mission](Mission.md) 的 `missionStart` 一节。
+> 通过此 Action 加入的任务，其 `missionStart` 在**加载时不会执行**（扩展模式下未显式设置 `suppress="false"` 时，该属性默认为 `true`），而是在玩家**接取**该任务时执行。详见 [Mission](Mission.md) 的 `missionStart` 一节。
 
 参考：[SAAddMissionToHubServer.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/SAAddMissionToHubServer.cs)
 

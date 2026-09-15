@@ -51,12 +51,17 @@ Mission 的根元素。
 - *`val`*?：`int`，Function 的参数。默认值为 `0`。
 - *`suppress`*?：`bool`，默认值取决于运行模式：**扩展模式下为 `true`，主游戏模式下为 `false`**。
   - ⚠️ 因此在扩展中**不写该属性等同于 `suppress="true"`**。
-  - `true`：加载时仅记录、不执行，等到「激活时机」（即任务邮件被发送）才执行，包括：
+  - `true`：加载时仅记录、不执行，等到「激活时机」才执行，包括：
     - 通过 `nextMission` 进入的任务
     - 扩展启动时的起始任务
-    - 在 MissionHub / MissionListServer / DLCHub 等节点**接取**任务时
+    - 在 MissionHubServer / MissionListingServer / DLCHubServer 等节点**接取**任务时（接取动作会直接调用激活，**不发送任务邮件**）
     - ⚠️ 通过 [`LoadMission`](Action.md) Action 加载的任务不在上述路径中，其 `missionStart` **不会执行**；有需要时应显式写 `suppress="false"`
-  - `false`：任务文件**每次被解析时都会执行**。除了存读档，**每次连接 hub / DHS 节点也会执行一次**（节点每次连接都会重建任务列表并从任务 XML 重新解析，见 `MissionSerializer.restoreMissionFromFile`）。因此 hub / DHS 中的任务应使用 `suppress="true"`（或省略该属性）
+  - `false`：任务文件**每次被解析时都会执行**。解析发生在任务的各种加载路径上，例如：
+    - 存读档 / 新游戏时的任务加载
+    - **DHS（`DLCHubServer`）每次连接**：`navigatedTo` → `ReadActiveMissions` → `MissionSerializer.restoreMissionFromFile` → 重新解析任务 XML
+    - 玩家接取 DHS 任务时（`PlayerAcceptMission` 中会再次解析任务文件）
+    - 注意 `MissionHubServer` / `MissionListingServer` 的任务恢复发生在 `loadInit`（随存档加载），**不随每次连接重载**
+  - 因此 hub / DHS 中的任务应使用 `suppress="true"`（**扩展模式下**可省略该属性；主游戏模式下省略等同于 `false`）
 
 ::: details (官方介绍)
 官方是这么介绍的：
