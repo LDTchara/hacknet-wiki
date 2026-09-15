@@ -49,7 +49,14 @@ Mission 的根元素。
 ```
 任务被加载后执行的 Function。不使用可以把 `<missionStart>` 元素删除。
 - *`val`*?：`int`，Function 的参数。默认值为 `0`。
-- *`suppress`*?：`bool`，默认值为 `false`。`suppress` 为 `true` 时通过 `LoadMission` Action 加载的 Mission 的 `missionStart` 不会被执行，只有通过 Mission 的 `nextMission` 加载的任务的 missionStart 才会执行。`false` 时可能会多次执行（存读档）
+- *`suppress`*?：`bool`，默认值取决于运行模式：**扩展模式下为 `true`，主游戏模式下为 `false`**。
+  - ⚠️ 因此在扩展中**不写该属性等同于 `suppress="true"`**。
+  - `true`：加载时仅记录、不执行，等到「激活时机」（即任务邮件被发送）才执行，包括：
+    - 通过 `nextMission` 进入的任务
+    - 扩展启动时的起始任务
+    - 在 MissionHub / MissionListServer / DLCHub 等节点**接取**任务时
+    - ⚠️ 通过 [`LoadMission`](Action.md) Action 加载的任务不在上述路径中，其 `missionStart` **不会执行**；有需要时应显式写 `suppress="false"`
+  - `false`：任务文件**每次被解析时都会执行**。除了存读档，**每次连接 hub / DHS 节点也会执行一次**（节点每次连接都会重建任务列表并从任务 XML 重新解析，见 `MissionSerializer.restoreMissionFromFile`）。因此 hub / DHS 中的任务应使用 `suppress="true"`（或省略该属性）
 
 ::: details (官方介绍)
 官方是这么介绍的：
@@ -59,7 +66,9 @@ otherwise it will activate when it is loaded. This is very important to remember
 writing missions designed for use in a hub server - those missions are loaded when the save game is loaded
 or a new game is started.
 ```
-但是实践证明，添加到 MissionHub 的 Mission 的 `missionStart` 在 `suppress` 为 `false` 时也没有被执行。
+实测补充：向 MissionHub 添加的 Mission 若**省略 `suppress` 属性**，其 `missionStart` 不会在加载时执行 —— 因为扩展模式下该属性默认为 `true`（任务被抑制，需等玩家接取时才激活）。显式写 `suppress="false"` 时，如上文所述，任务文件每次被解析都会执行。
+
+参考：[ComputerLoader.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/ComputerLoader.cs)、[MissionSerializer.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/MissionSerializer.cs)、[ActiveMission.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/ActiveMission.cs)、[MissionHubServer.cs](https://github.com/UnHacknet/OpenHacknet/blob/main/MissionHubServer.cs)
 :::
 
 
